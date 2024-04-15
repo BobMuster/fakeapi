@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Felonious Gru",
+    "role": "Manager",
+    "department": "software",
+    "units" : ["00E0C523FF77", "00E0C523F919", "00E0C523FF83", "00E0C523F2A9"]
+  },
+  {
+    "id": 2,
+    "name": "Kevin",
+    "role": "minion",
+    "department": "construction",
+    "units" : ["00E0C523F4E4", "00E0C523F7F0", "00E0C523F4AC", "00E0C523F47D", "00E0C523F03B"]
+  },
+  {
+    "id": 3,
+    "name": "Bob",
+    "role": "minion",
+    "department": "construction",
+    "units" : ["00E0C523EF8F", "00E0C523F35D", "00E0C523F964", "C81F66AEA00D", "C81F66AEEF27", "C81F66ADC745"]
+  },
+  {
+    "id": 4,
+    "name": "Stuart",
+    "role": "minion",
+    "department": "construction",
+    "units" : ["00E0C523F3D7", "00E0C523FA94"]
+  }
+]

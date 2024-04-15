@@ -1,0 +1,52 @@
+<amp:amp_ap_list version="1" xmlns:amp="http://www.airwave.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.airwave.com amp_ap_list.xsd">
+    <ap id="345">
+        <device_category>switch</device_category>
+        <firmware>K.16.02.0028</firmware>
+        <folder id="20">AOS-Switches</folder>
+        <fqdn>schloss-of-245.saalekreis.loc</fqdn>
+        <group id="16">AOS-Switches</group>
+        <is_up>true</is_up>
+        <lan_ip>10.1.8.12</lan_ip>
+        <lan_mac>C8:CB:B8:6A:27:00</lan_mac>
+        <last_contacted>1707735902</last_contacted>
+        <last_reboot>1674005974</last_reboot>
+        <mfgr>Aruba</mfgr>
+        <model id="705"> 5406zl</model>
+        <monitor_only>true</monitor_only>
+        <name>Schloss-OF-245</name>
+        <operating_mode>ap</operating_mode>
+        <planned_maintenance_mode>false</planned_maintenance_mode>
+        <reboot_count></reboot_count>
+        <serial_number>SG29DXT2CQ</serial_number>
+        <snmp_uptime>33730018</snmp_uptime>
+        <syscontact>system.admin@saalekreis.de</syscontact>
+        <syslocation>MER_Schloss, Ostfluegel, Zi. 245</syslocation>
+        <upstream_device_id>31</upstream_device_id>
+        <upstream_port_index>190</upstream_port_index>
+    </ap>
+    <ap id="346">
+        <device_category>switch_test</device_category>
+        <firmware>K.16.02.0028_test</firmware>
+        <folder id="20">AOS-Switches_test</folder>
+        <fqdn>schloss-of-245.saalekreis.loc_test</fqdn>
+        <group id="16">AOS-Switches_test</group>
+        <is_up>true_test</is_up>
+        <lan_ip>10.1.8.12</lan_ip>
+        <lan_mac>C8:CB:B8:6A:27:00</lan_mac>
+        <last_contacted>1707735902</last_contacted>
+        <last_reboot>1674005974</last_reboot>
+        <mfgr>Aruba_test</mfgr>
+        <model id="705"> 5406zl</model>
+        <monitor_only>true</monitor_only>
+        <name>Schloss-OF-245</name>
+        <operating_mode>ap</operating_mode>
+        <planned_maintenance_mode>false</planned_maintenance_mode>
+        <reboot_count></reboot_count>
+        <serial_number>SG29DXT2CQ</serial_number>
+        <snmp_uptime>33730018</snmp_uptime>
+        <syscontact>system.admin@saalekreis.de</syscontact>
+        <syslocation>MER_Schloss, Ostfluegel, Zi. 245 _test</syslocation>
+        <upstream_device_id>31</upstream_device_id>
+        <upstream_port_index>190</upstream_port_index>
+    </ap>
+</amp:amp_ap_list>
