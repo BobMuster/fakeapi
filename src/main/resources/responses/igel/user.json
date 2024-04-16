@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Felonious Gru",
-    "role": "Manager",
+    "role": "manager",
     "department": "software",
     "units" : ["00E0C523FF77", "00E0C523F919", "00E0C523FF83", "00E0C523F2A9"]
   },

@@ -42,7 +42,7 @@ public class UnitService {
     }
 
     public String getComplexUnitByNetworkNameAndId(String id, String networkName) {
-        String jsonPath = "$.[?(@.networkName == '" + networkName + "' || @.id == '" + id + "')]";
+        String jsonPath = "$.[?(@.networkName == '" + networkName + "' || @.unitID == '" + id + "')]";
         return JsonPath.read(complexUnits, jsonPath).toString();
     }
 
