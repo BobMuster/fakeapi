@@ -53,8 +53,8 @@ public class OcJsonTestController {
 
     @GetMapping(value = "/complex/unit", produces = "application/json")
     public ResponseEntity<String> getComplexUnit(@RequestBody MultiValueMap<String, String> valueMap) throws Exception {
-        String unitId = valueMap.getFirst("id");
-        String networkName = valueMap.getFirst("network_name");
+        String unitId = valueMap.getFirst("unitID");
+        String networkName = valueMap.getFirst("networkName");
         String complexUnit = unitService.getComplexUnitByNetworkNameAndId(unitId, networkName);
         return ResponseEntity.ok(complexUnit);
     }
