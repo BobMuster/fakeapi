@@ -27,6 +27,22 @@ public class OcJsonTestController {
         return ResponseEntity.ok(users);
     }
 
+    @PostMapping(value = "/user")
+    public ResponseEntity<?> addUsers(@RequestBody MultiValueMap<String, String> valueMap) throws Exception {
+        String id = valueMap.getFirst("id");
+        String name = valueMap.getFirst("id");
+        String role = valueMap.getFirst("id");
+        String department = valueMap.getFirst("id");
+        String units = valueMap.getFirst("units");
+        String result = String.format("{\n\t\"id\": \"%s\",\n" +
+                                        "\t\"name\":\"%s\",\n" +
+                                        "\t\"role\":\"%s\",\n" +
+                                        "\t\"department\":\"%s\",\n" +
+                                        "\t\"units\":\"%s\"\n}", id, name, role, department, units);
+        System.out.println(result);
+        return ResponseEntity.ok().build();
+    }
+
     @GetMapping(value = "/unit/all", produces = "application/json")
     public ResponseEntity<?> getAllUnits() throws Exception {
         String units = unitService.getAllUnit();

@@ -1,7 +1,9 @@
 package com.fakeapi.fakeapi;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jayway.jsonpath.JsonPath;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.json.YamlJsonParser;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -10,23 +12,13 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
+import java.util.List;
 
 @SpringBootTest
 class FakeapiApplicationTests {
 
-	private final String jsonData = "{  \n" +
-			"    \"employee\": {  \n" +
-			"        \"1\":       \"sonoo\",   \n" +
-			"        \"salary\":      56000,   \n" +
-			"        \"married\":    true  \n" +
-			"    }  \n" +
-			"}  ";
-
 	@Test
 	void contextLoads() {
-		String path = "$.employee";
-		Object result = JsonPath.read(jsonData, path);
-		System.out.println(result);
 	}
 
 }
