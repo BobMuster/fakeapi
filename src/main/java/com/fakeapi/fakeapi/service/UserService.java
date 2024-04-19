@@ -34,7 +34,7 @@ public class UserService {
         int endIndex = Math.min(startIndex + size, users.size());
         List<TwitterUser> pageItems = users.subList(startIndex, endIndex);
         String nextCursor = endIndex < users.size() ? pageItems.get(pageItems.size() - 1).getId() : null;
-        String nextItems = "http://localhost:8081/api/cursor/example?size=5&cursor=" + nextCursor;
+        String nextItems = "http://localhost:8081/api/page/cursor/example?size=5&cursor=" + nextCursor;
         return new CursorPage<>(pageItems, nextCursor, nextItems);
     }
 
