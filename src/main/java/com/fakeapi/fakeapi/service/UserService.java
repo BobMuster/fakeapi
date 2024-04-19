@@ -47,7 +47,7 @@ public class UserService {
         } else {
             list = users.subList(offset, toIndex);
         }
-        String nextItems = "http://localhost:8081/api/cursor/example?limit="+limit+"&offset=" + toIndex;
+        String nextItems = "http://localhost:8081/api/page/cursor/example?limit="+limit+"&offset=" + toIndex;
         list = users.subList(offset, toIndex);
         return new CursorPage<TwitterUser>(list, nextItems, users.size(), toIndex, limit);
     }
